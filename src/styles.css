@@ -1,0 +1,27 @@
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  
+  .sidebar {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .sidebar button {
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar button:hover {
+    background-color: #444;
+  }
+  

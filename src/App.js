@@ -573,6 +573,7 @@ export default function App() {
           minZoom={13}
           maxZoom={18}
           scrollWheelZoom={true}
+          attributionControl={false}
           style={{ height: "100%", width: "100%" }}
           maxBounds={[[56.19, 43.75], [56.40, 44.15]]} // <-- ВАЖНО: сюда добавили ограничение
           maxBoundsViscosity={1.0}
